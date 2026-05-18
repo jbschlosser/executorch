@@ -163,7 +163,6 @@ from executorch.backends.transforms.fuse_cascaded_transpose_or_permute_ops impor
 from executorch.backends.transforms.postpone_permute_below_squeeze_view import (
     PostponePermuteOpBelowSqueezeOrUnsqueezeLikeView,
 )
-
 from executorch.exir import ExportedProgram
 from executorch.exir.pass_base import ExportPass
 from executorch.exir.pass_manager import PassManager
